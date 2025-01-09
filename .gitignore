@@ -1,0 +1,4 @@
+project/**
+.bloop/**
+target/**
+.metals/**
