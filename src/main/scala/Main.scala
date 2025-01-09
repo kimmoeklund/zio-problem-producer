@@ -4,7 +4,6 @@ object Main extends ZIOAppDefault:
   def run =
     trait One
     trait Two
-    type Duo = One & Two
     case class OneLive() extends One
     case class TwoLive() extends Two
     val routes = Routes(
